@@ -1,0 +1,16 @@
+{
+    "files": [
+        "templates/single.tsx",
+        "templates/supporting/rendering.ts",
+        "start.ts"
+    ],
+   "compilerOptions": {
+       "allowJs": true,
+       "sourceMap": false,
+       "noImplicitAny": false,
+       "module": "commonjs",
+       "target": "es5",
+       "jsx": "react",
+       "lib": ["dom", "es6", "dom.iterable", "scripthost"]
+   }
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div id="container"><%- content %></div>
+    <script src="/javascripts/bundle.js/bundle.js"></script>
+    <script>
+
+      renderSingleIn("redux-in-react-and-angular-2", "container", <%- cache %>);
+
+    </script>
+  </body>
+</html>

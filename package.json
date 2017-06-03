@@ -1,0 +1,36 @@
+{
+  "name": "reactpress",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "build": "tsc",
+    "build:w": "tsc -w",
+    "webpack": "webpack",
+    "webpack:p": "webpack -p",
+    "dev": "concurrently --kill-others \"webpack --watch\" \"tsc -w\"  \"npm start\""
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "node-fetch": "^1.7.0",
+    "node-sass-middleware": "0.9.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "@types/react": "^15.0.25",
+    "@types/react-dom": "^15.5.0",
+    "awesome-typescript-loader": "^3.1.3",
+    "concurrently": "^3.4.0",
+    "nodemon": "^1.11.0",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.3.3",
+    "webpack": "^2.6.1"
+  }
+}

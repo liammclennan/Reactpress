@@ -1,0 +1,9 @@
+{
+  "previousDomain": "https://withouttheloop.wordpress.com",
+  "newDomain": "http://localhost:3000",
+  "apiEndpoint": "https://public-api.wordpress.com/wp/v2/sites/withouttheloop.wordpress.com",
+  "routes": {
+    "index": "/",
+    "post": "/:year(\\d\\d\\d\\d)/:month(\\d\\d)/:day(\\d\\d)/:slug"
+  }
+}
