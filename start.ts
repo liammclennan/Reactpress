@@ -1,4 +1,4 @@
-import * as reactWrapper from "./routes/reactWrapper";
+import * as reactWrapper from "./supporting/reactWrapper";
 
 if (typeof window !== "undefined") {
     window["renderSingleIn"] = function (slug, containerId, cache) {

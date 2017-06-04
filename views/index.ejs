@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
     <title><%= title %></title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
-  <body>
+  <body class="article-detail">
     <div id="container"><%- content %></div>
     <script src="/javascripts/bundle.js/bundle.js"></script>
     <script>
 
-      renderSingleIn("redux-in-react-and-angular-2", "container", <%- cache %>);
+      // renderSingleIn("redux-in-react-and-angular-2", "container", <%- cache %>);
 
     </script>
   </body>
